@@ -1,2 +1,8 @@
-*.h linguist-language=swift
-*.m linguist-language=swift
+*.v linguist-language=swift
+*.ngr linguist-language=swift
+*.xst linguist-language=swift
+*.xise linguist-language=swift
+*.syr linguist-language=swift
+*.stx linguist-language=swift
+*.prj linguist-language=swift
+*.lso linguist-language=swift
