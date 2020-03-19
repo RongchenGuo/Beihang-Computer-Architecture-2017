@@ -1,8 +1,8 @@
-*.v linguist-language=swift
-*.ngr linguist-language=swift
-*.xst linguist-language=swift
-*.xise linguist-language=swift
-*.syr linguist-language=swift
-*.stx linguist-language=swift
-*.prj linguist-language=swift
-*.lso linguist-language=swift
+*.v linguist-language=verilog
+*.ngr linguist-language=verilog
+*.xst linguist-language=verilog
+*.xise linguist-language=verilog
+*.syr linguist-language=verilog
+*.stx linguist-language=verilog
+*.prj linguist-language=verilog
+*.lso linguist-language=verilog
