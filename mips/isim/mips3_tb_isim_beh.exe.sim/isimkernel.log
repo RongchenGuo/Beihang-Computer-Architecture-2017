@@ -1,0 +1,10 @@
+Command line:
+   mips3_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50405
+
+Fri Jan 05 08:42:12 2018
+
+
+ Elaboration Time: 0.046875 sec

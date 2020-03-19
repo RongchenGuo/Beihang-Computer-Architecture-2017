@@ -1,0 +1,7 @@
+verilog work "logic.v"
+verilog work "excw.v"
+verilog work "excm.v"
+verilog work "exce.v"
+verilog work "excd.v"
+verilog work "CP0.v"
+verilog work "exc.v"

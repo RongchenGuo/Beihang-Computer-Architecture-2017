@@ -1,0 +1,96 @@
+Running: E:\InstallISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/ISEhomework/p77/mips/mips3_tb_isim_beh.exe -prj E:/ISEhomework/p77/mips/mips3_tb_beh.prj work.mips3_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/ISEhomework/p77/mips/stall_detector.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/stall_controller.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/register_file.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/pipeWR2.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/pipeWR.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/pipeMR2.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/pipeMR.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/pipeER2.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/pipeER.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/pipeDR.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/NPC.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/MUX2.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/MUX.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/multdiv.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/main_controller.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/logic.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/load.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/instr_memory.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/instr_decoder.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/forward_controller.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/extender.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/excw.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/excm.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/exce.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/excd.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/data_memory.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/CP0.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/CMP.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/AT_controller.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/alu.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/TimCou.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/exc.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/datapath.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/controller.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/DEV1.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/DEV0.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/CPU.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/bridge.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/mips.v" into library work
+Analyzing Verilog file "E:/ISEhomework/p77/mips/mips3_tb.v" into library work
+Analyzing Verilog file "E:/InstallISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module instr_memory
+Compiling module NPC
+Compiling module pipeDR
+Compiling module instr_decoder
+Compiling module register_file
+Compiling module extender
+Compiling module CMP
+Compiling module pipeER
+Compiling module alu
+Compiling module multdiv
+Compiling module pipeMR
+Compiling module data_memory
+Compiling module pipeWR
+Compiling module load
+Compiling module MUX
+Compiling module MUX2
+Compiling module datapath
+Compiling module main_controller
+Compiling module AT_controller
+Compiling module stall_detector
+Compiling module stall_controller
+Compiling module forward_controller
+Compiling module pipeER2
+Compiling module pipeMR2
+Compiling module pipeWR2
+Compiling module controller
+Compiling module excd
+Compiling module exce
+Compiling module excm
+Compiling module excw
+Compiling module logical
+Compiling module CP0
+Compiling module exc
+Compiling module CPU
+Compiling module bridge
+Compiling module TimCou
+Compiling module DEV0
+Compiling module DEV1
+Compiling module mips
+Compiling module mips3_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 34 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\mips3_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 41 Verilog Units
+Built simulation executable E:/ISEhomework/p77/mips/mips3_tb_isim_beh.exe
+Fuse Memory Usage: 38328 KB
+Fuse CPU Usage: 968 ms

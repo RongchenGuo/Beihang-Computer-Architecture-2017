@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/ISEhomework/p5/mips/pipeER2.xst" -ofn "E:/ISEhomework/p5/mips/pipeER2.syr" 

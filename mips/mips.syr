@@ -1,0 +1,297 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\ISEhomework\p7\mips\stall_detector.v" into library work
+Parsing verilog file "head.v" included at line 21.
+Parsing module <stall_detector>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\stall_controller.v" into library work
+Parsing module <stall_controller>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\register_file.v" into library work
+Parsing module <register_file>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\pipeWR2.v" into library work
+Parsing verilog file "head.v" included at line 21.
+Parsing module <pipeWR2>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\pipeWR.v" into library work
+Parsing module <pipeWR>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\pipeMR2.v" into library work
+Parsing verilog file "head.v" included at line 21.
+Parsing module <pipeMR2>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\pipeMR.v" into library work
+Parsing module <pipeMR>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\pipeER2.v" into library work
+Parsing verilog file "head.v" included at line 21.
+Parsing module <pipeER2>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\pipeER.v" into library work
+Parsing module <pipeER>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\pipeDR.v" into library work
+Parsing module <pipeDR>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\NPC.v" into library work
+Parsing verilog file "head.v" included at line 21.
+Parsing module <NPC>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\MUX2.v" into library work
+Parsing module <MUX2>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\MUX.v" into library work
+Parsing module <MUX>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\multdiv.v" into library work
+Parsing verilog file "head.v" included at line 21.
+Parsing module <multdiv>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\main_controller.v" into library work
+Parsing verilog file "head.v" included at line 21.
+Parsing module <main_controller>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\logic.v" into library work
+Parsing module <logical>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\load.v" into library work
+Parsing module <load>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\instr_memory.v" into library work
+Parsing module <instr_memory>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\instr_decoder.v" into library work
+Parsing module <instr_decoder>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\forward_controller.v" into library work
+Parsing verilog file "head.v" included at line 21.
+Parsing module <forward_controller>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\extender.v" into library work
+Parsing module <extender>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\excw.v" into library work
+Parsing module <excw>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\excm.v" into library work
+Parsing module <excm>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\exce.v" into library work
+Parsing module <exce>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\excd.v" into library work
+Parsing module <excd>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\data_memory.v" into library work
+Parsing module <data_memory>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\CP0.v" into library work
+Parsing module <CP0>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\CMP.v" into library work
+Parsing module <CMP>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\AT_controller.v" into library work
+Parsing verilog file "head.v" included at line 21.
+Parsing module <AT_controller>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\alu.v" into library work
+Parsing verilog file "head.v" included at line 21.
+Parsing module <alu>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\TimCou.v" into library work
+Parsing module <TimCou>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\exc.v" into library work
+Parsing module <exc>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\datapath.v" into library work
+Parsing module <datapath>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\controller.v" into library work
+Parsing module <controller>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\DEV1.v" into library work
+Parsing module <DEV1>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\DEV0.v" into library work
+Parsing module <DEV0>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\CPU.v" into library work
+Parsing module <CPU>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\bridge.v" into library work
+Parsing module <bridge>.
+Analyzing Verilog file "E:\ISEhomework\p7\mips\mips.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mips>.
+
+Elaborating module <CPU>.
+
+Elaborating module <datapath>.
+
+Elaborating module <instr_memory>.
+Reading initialization file \"code17.txt\".
+WARNING:HDLCompiler:1670 - "E:\ISEhomework\p7\mips\instr_memory.v" Line 33: Signal <array2> in initial block is partially initialized.
+
+Elaborating module <NPC>.
+
+Elaborating module <pipeDR>.
+
+Elaborating module <instr_decoder>.
+
+Elaborating module <register_file>.
+"E:\ISEhomework\p7\mips\register_file.v" Line 82. $display  32'b................................ 5'b..... 32'b................................
+
+Elaborating module <extender>.
+
+Elaborating module <CMP>.
+
+Elaborating module <pipeER>.
+
+Elaborating module <alu>.
+WARNING:HDLCompiler:413 - "E:\ISEhomework\p7\mips\alu.v" Line 53: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <multdiv>.
+WARNING:HDLCompiler:413 - "E:\ISEhomework\p7\mips\multdiv.v" Line 80: Result of 32-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "E:\ISEhomework\p7\mips\multdiv.v" Line 82: Result of 32-bit expression is truncated to fit in 5-bit target.
+
+Elaborating module <pipeMR>.
+
+Elaborating module <data_memory>.
+WARNING:HDLCompiler:1127 - "E:\ISEhomework\p7\mips\data_memory.v" Line 41: Assignment to displayaddr ignored, since the identifier is never used
+"E:\ISEhomework\p7\mips\data_memory.v" Line 57. $display  32'b................................ 32'b................................ 32'b................................
+"E:\ISEhomework\p7\mips\data_memory.v" Line 61. $display  32'b................................ 32'b................................ 32'b................................
+"E:\ISEhomework\p7\mips\data_memory.v" Line 65. $display  32'b................................ 32'b................................ 32'b................................
+"E:\ISEhomework\p7\mips\data_memory.v" Line 69. $display  32'b................................ 32'b................................ 32'b................................
+"E:\ISEhomework\p7\mips\data_memory.v" Line 73. $display  32'b................................ 32'b................................ 32'b................................
+"E:\ISEhomework\p7\mips\data_memory.v" Line 77. $display  32'b................................ 32'b................................ 32'b................................
+"E:\ISEhomework\p7\mips\data_memory.v" Line 81. $display  32'b................................ 32'b................................ 32'b................................
+
+Elaborating module <pipeWR>.
+
+Elaborating module <load>.
+
+Elaborating module <MUX>.
+
+Elaborating module <MUX2>.
+
+Elaborating module <controller>.
+
+Elaborating module <main_controller>.
+
+Elaborating module <AT_controller>.
+WARNING:HDLCompiler:1127 - "E:\ISEhomework\p7\mips\AT_controller.v" Line 60: Assignment to j ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\ISEhomework\p7\mips\AT_controller.v" Line 101: Assignment to eret ignored, since the identifier is never used
+
+Elaborating module <stall_detector>.
+
+Elaborating module <stall_controller>.
+
+Elaborating module <forward_controller>.
+
+Elaborating module <pipeER2>.
+
+Elaborating module <pipeMR2>.
+
+Elaborating module <pipeWR2>.
+
+Elaborating module <exc>.
+
+Elaborating module <excd>.
+
+Elaborating module <exce>.
+
+Elaborating module <excm>.
+
+Elaborating module <excw>.
+
+Elaborating module <logical>.
+
+Elaborating module <CP0>.
+
+Elaborating module <bridge>.
+
+Elaborating module <DEV0>.
+
+Elaborating module <TimCou>.
+
+Elaborating module <DEV1>.
+WARNING:Xst:2972 - "E:\ISEhomework\p7\mips\mips.v" line 29. All outputs of instance <CPU> of block <CPU> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\ISEhomework\p7\mips\mips.v" line 30. All outputs of instance <bridge> of block <bridge> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\ISEhomework\p7\mips\mips.v" line 31. All outputs of instance <DEV0> of block <DEV0> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\ISEhomework\p7\mips\mips.v" line 32. All outputs of instance <DEV1> of block <DEV1> are unconnected in block <mips>. Underlying logic will be removed.

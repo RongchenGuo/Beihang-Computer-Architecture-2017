@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/AT_controller.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">E:/ISEhomework/p77/mips/AT_controller.v</arg>&quot; Line <arg fmt="%d" index="2">21</arg>. <arg fmt="%s" index="3">Include file found: &apos;E:/ISEhomework/p5/mips/head.v&apos; in file &quot;E:/ISEhomework/p77/mips/AT_controller.v&quot; line 21
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/CMP.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/CP0.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/CPU.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/DEV0.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/DEV1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/MUX.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/MUX2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/NPC.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">E:/ISEhomework/p77/mips/NPC.v</arg>&quot; Line <arg fmt="%d" index="2">21</arg>. <arg fmt="%s" index="3">Include file found: &apos;E:/ISEhomework/p5/mips/head.v&apos; in file &quot;E:/ISEhomework/p77/mips/NPC.v&quot; line 21
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/TimCou.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/alu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">E:/ISEhomework/p77/mips/alu.v</arg>&quot; Line <arg fmt="%d" index="2">21</arg>. <arg fmt="%s" index="3">Include file found: &apos;E:/ISEhomework/p5/mips/head.v&apos; in file &quot;E:/ISEhomework/p77/mips/alu.v&quot; line 21
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/bridge.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/controller.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/data_memory.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/datapath.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/exc.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/excd.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/exce.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/excm.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/excw.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/extender.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/forward_controller.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">E:/ISEhomework/p77/mips/forward_controller.v</arg>&quot; Line <arg fmt="%d" index="2">21</arg>. <arg fmt="%s" index="3">Include file found: &apos;E:/ISEhomework/p5/mips/head.v&apos; in file &quot;E:/ISEhomework/p77/mips/forward_controller.v&quot; line 21
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/instr_decoder.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/instr_memory.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/load.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/logic.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/main_controller.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">E:/ISEhomework/p77/mips/main_controller.v</arg>&quot; Line <arg fmt="%d" index="2">21</arg>. <arg fmt="%s" index="3">Include file found: &apos;E:/ISEhomework/p5/mips/head.v&apos; in file &quot;E:/ISEhomework/p77/mips/main_controller.v&quot; line 21
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/mips.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/multdiv.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">E:/ISEhomework/p77/mips/multdiv.v</arg>&quot; Line <arg fmt="%d" index="2">21</arg>. <arg fmt="%s" index="3">Include file found: &apos;E:/ISEhomework/p5/mips/head.v&apos; in file &quot;E:/ISEhomework/p77/mips/multdiv.v&quot; line 21
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/pipeDR.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/pipeER.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/pipeER2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">E:/ISEhomework/p77/mips/pipeER2.v</arg>&quot; Line <arg fmt="%d" index="2">21</arg>. <arg fmt="%s" index="3">Include file found: &apos;E:/ISEhomework/p5/mips/head.v&apos; in file &quot;E:/ISEhomework/p77/mips/pipeER2.v&quot; line 21
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/pipeMR.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/pipeMR2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">E:/ISEhomework/p77/mips/pipeMR2.v</arg>&quot; Line <arg fmt="%d" index="2">21</arg>. <arg fmt="%s" index="3">Include file found: &apos;E:/ISEhomework/p5/mips/head.v&apos; in file &quot;E:/ISEhomework/p77/mips/pipeMR2.v&quot; line 21
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/pipeWR.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/pipeWR2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">E:/ISEhomework/p77/mips/pipeWR2.v</arg>&quot; Line <arg fmt="%d" index="2">21</arg>. <arg fmt="%s" index="3">Include file found: &apos;E:/ISEhomework/p5/mips/head.v&apos; in file &quot;E:/ISEhomework/p77/mips/pipeWR2.v&quot; line 21
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/register_file.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/stall_controller.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/ISEhomework/p77/mips/stall_detector.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">E:/ISEhomework/p77/mips/stall_detector.v</arg>&quot; Line <arg fmt="%d" index="2">21</arg>. <arg fmt="%s" index="3">Include file found: &apos;E:/ISEhomework/p5/mips/head.v&apos; in file &quot;E:/ISEhomework/p77/mips/stall_detector.v&quot; line 21
+</arg>
+</msg>
+
+</messages>
+
