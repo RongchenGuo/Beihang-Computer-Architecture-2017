@@ -1,0 +1,2 @@
+*.h linguist-language=verilog
+*.m linguist-language=verilog
