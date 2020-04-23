@@ -1,0 +1,8 @@
+*.v linguist-language=verilog
+*.ngr linguist-language=verilog
+*.xst linguist-language=verilog
+*.xise linguist-language=verilog
+*.syr linguist-language=verilog
+*.stx linguist-language=verilog
+*.prj linguist-language=verilog
+*.lso linguist-language=verilog
